@@ -1,4 +1,4 @@
-# <center>App Store Dataset Analysis</center>
+# App Store Dataset Analysis
  
 
 ## 1. Introduction
