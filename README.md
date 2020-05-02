@@ -14,7 +14,13 @@ This repository has the goal to show a starting analysis done in the App Store d
  
 The notebook is written in Python.
 
-## 2. Requirements
+## 2. About the Files
+The repository has 3 important files:
+    1. *appstore_games.csv* -> CSV file with the raw data
+    2. *app_df_clean.csv* -> CSV file containing preprocessed data
+    3. App Store Strategy Game Analysis.ipynb -> Jupyter notebook written in Python with the preprocessing steps and graphics.
+
+## 3. Requirements
 In this notebook I make use of the **numpy**, **pandas**, **seaborn** and **matplotlib** modules in Python. The versions I used are:
  - seaborn==0.10.0
  - pandas==1.0.3
@@ -29,8 +35,8 @@ Via pip3 (used for Python3):
 
  > pip3 install <seaborn/pandas/numpy/matplotlib>
  
-## 3. Techniques
+## 4. Techniques
 Some techniques that I used include: get the data, establish questions, omit usless data, visualize the data and answer questions.
  
-## 4. Insights
+## 5. Insights
 With the advance in technology the apps are able to have better graphics and more features, which results in an increase in the memory space they occupy. The advance in technology and the devices becoming more accessible also showed an increase in the amount of apps released per year, from 2008 to 2016, as more more people were probably using and buying these kind of products. After 2016, the data shows a decreasing behaviour, which I suggest as being a result of overproduction of apps. Analysing the distribution of free and paid apps it is clear that the vast majority of the apps are free. At the same time, free apps offer more in-app purchases, what can be expected as they need other sources of income. Comparing the users' ratings for free and paid apps, no category is better with both showing good ratings overall. Last but no least, most of the games are for 4+ years old and the prefered language is English.
