@@ -16,6 +16,7 @@ The notebook is written in Python.
 
 ## 2. About the Files
 The repository has 3 important files:
+
     1. *appstore_games.csv* -> CSV file with the raw data
     2. *app_df_clean.csv* -> CSV file containing preprocessed data
     3. *App Store Strategy Game Analysis.ipynb* -> Jupyter notebook written in Python with the preprocessing steps and graphics.
